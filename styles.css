@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #292929;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 80px 0;
+}
+
+/* Links */
+a {
+    color: #1DB954;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #4caf50;
+}
+
+/* Sections */
+section {
+    text-align: center;
+    padding: 60px 0;
+    margin: 40px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+
